@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="js/script.js" defer></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="icon" type="favicon" href="./images/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <title>Rest Countries</title>
+    </head>
+    <body>
+        <header>
+            <h2 id="header">COUNTRIES &#x1F30F;</h2>
+            <p>
+                Search for a language to get a list of all countries where the
+                habitants speaks that language
+            </p>
+            <p>
+                The country with the highest population will be marked in blue
+            </p>
+        </header>
+        <form action="">
+            <input
+                type="text"
+                id="lang-input"
+                placeholder="Search by language"
+            />
+            <button id="search-btn">Show countries</button>
+            <h3 id="error-message"></h3>
+            <p id="search-text"></p>
+        </form>
+        <div id="country-container"></div>
+    </body>
+</html>
